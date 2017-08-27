@@ -4,9 +4,9 @@
 
 Welcome to the project page of my GSoC 2017 project!
 
-The goal of my project was to build a web app to scan the code for information like licenses, authors, packages and other such information. The library was already implemented by the [community](https://github.com/nexb/scancode-toolkit) and my job was to create a web app on the top of it, so that the people can directly scan their code from the web app. Here is the link to whole of my code during the GSoC [https://github.com/nexB/scancode-server/commits/develop?author=singh1114](https://github.com/nexB/scancode-server/commits/develop?author=singh1114). 
+The goal of my project was to build a web app to scan the code for information like licenses, authors, packages and other such information. The library was already implemented by the [community](https://github.com/nexb/scancode-toolkit) and my job was to create a web app on the top of it, so that the people can directly scan their code from the web app. Here is the link to the repository which was coded during the development, [https://github.com/nexB/scancode-server/](https://github.com/nexB/scancode-server/). 
 
-The idea was to create the ReST API using the [Django's rest framework](http://www.django-rest-framework.org/). Most of the work related to the project written in the proposal is done and the product is ready to be used after some minor changes. [Here](https://github.com/nexB/scancode-server/commits/develop?author=singh1114) is the list of all my commits during the GSoC-2017.
+The idea was to create the ReST API using the [Django's rest framework](http://www.django-rest-framework.org/). Most of the work related to the project written in the proposal is done and the product is ready to be used after some minor changes. Here is the list of all my commits during the GSoC-2017. [https://github.com/nexB/scancode-server/commits/develop?author=singh1114](https://github.com/nexB/scancode-server/commits/develop?author=singh1114)
 
 I documented my progress in weekly blog posts. These can be found in my [blog](https://ranvirsinghprojects.wordpress.com/category/gsoc-2017/).
 
@@ -42,3 +42,6 @@ After this, my mentor told me to write the unit tests for the code. It was a ver
 
 In this, I took the data from the Django models and tried to convert them into more easily transferable data i.e. `JSON` format. We still have to do more things in this part. I have written a detailed description of this in the following [blog post](https://ranvirsinghprojects.wordpress.com/2017/07/22/serialization-a-week-long-struggle/)
 
+## Work Left:
+
+After the completion of GSoC, I would try to create a webhook for the implemented API. After the implementation of webhook the product will become usable at the very basic level and everyone will be able to use it.
